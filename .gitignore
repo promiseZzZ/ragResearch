@@ -1,0 +1,24 @@
+# Python 编译缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+
+# 系统与 IDE 配置
+.DS_Store
+.vscode/
+.idea/
+
+# 向量索引与持久化存储（由脚本生成，严禁入库）
+storage/
+*.chroma
+*.sqlite3
+
+# 实验脏数据、原始大文件与日志
+data/raw/*
+!data/raw/.gitkeep
+data/poisoned/
+data/processed/
+logs/
+evaluation/results/
